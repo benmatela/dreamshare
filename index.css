@@ -1,0 +1,11 @@
+@media (min-width: 768px) {
+    .holiday .main-banner {
+        min-height: 70vh;
+    }
+}
+
+.holiday .main-banner {
+    background: url("assets/headerBackground.jpg") no-repeat;
+    padding-bottom: 20px;
+    background-size: 100% 100%
+}
