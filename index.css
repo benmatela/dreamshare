@@ -9,3 +9,35 @@
     padding-bottom: 20px;
     background-size: 100% 100%
 }
+
+.main-banner-text-big {
+    font-size: 3vw;
+    color: white;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.button-pink {
+    background-color: #FF4E50;
+    border-radius: 20px;
+    color: white;
+}
+
+.button-white {
+    background-color: white;
+    margin: 2px;
+    border-radius: 20px;
+    color: #FF4E50;
+}
+
+.grey-text {
+    color: #caa0a0;
+}
