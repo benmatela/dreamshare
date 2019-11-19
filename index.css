@@ -4,6 +4,13 @@
     }
 }
 
+@media (min-width: 768px) {
+    .partner {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
 .holiday .main-banner {
     background: url("assets/headerBackground.jpg") no-repeat;
     padding-bottom: 20px;
@@ -141,7 +148,7 @@ hr {
 
 #hobby {
     position: absolute;
-    left: 85px;
+    left: 140px;
     top: 80px;
     height: 40px;
     width: 40px;
@@ -156,5 +163,9 @@ hr {
     right: 50px;
     top: 120px;
     z-index: 3;
+}
+
+.absolute {
+    position: absolute;
 }
 
