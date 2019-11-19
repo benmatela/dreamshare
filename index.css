@@ -15,6 +15,70 @@
     color: white;
 }
 
+.sports .sports-banner {
+    background: url("assets/block1Sports.jpg") no-repeat;
+    padding-bottom: 20px;
+    background-size: 100% 100%;
+    color: black;
+    min-height: 35vh;
+    border-radius: 4px;
+    font-size: 2vw;
+}
+
+.wellness-and-health .wellness-and-health-banner {
+    background: url("assets/block2Wellness.jpg") no-repeat;
+    padding-bottom: 20px;
+    background-size: 100% 100%;
+    min-height: 35vh;
+    border-radius: 4px;
+    font-size: 2vw;
+}
+
+.expeditions .expeditions-banner {
+    background: url("assets/block3Expeditions.jpg") no-repeat;
+    padding-bottom: 20px;
+    background-size: 100% 100%;
+    min-height: 35vh;
+    border-radius: 4px;
+    font-size: 2vw;
+}
+
+.games .games-banner {
+    background: url("assets/block4Games.jpg") no-repeat;
+    padding-bottom: 20px;
+    background-size: 100% 100%;
+    min-height: 35vh;
+    border-radius: 4px;
+    font-size: 2vw;
+}
+
+.culture-and-education .culture-and-education-banner {
+    background: url("assets/block5Culture.jpg") no-repeat;
+    padding-bottom: 20px;
+    background-size: 100% 100%;
+    min-height: 35vh;
+    border-radius: 4px;
+    font-size: 2vw;
+}
+
+.beauty-and-relaxation .beauty-and-relaxation-banner {
+    background: url("assets/block6Beauty.jpg") no-repeat;
+    padding-bottom: 20px;
+    background-size: 100% 100%;
+    min-height: 35vh;
+    border-radius: 4px;
+    font-size: 2vw;
+}
+
+.travelling .travelling-banner {
+    background: url("assets/block7Travelling.jpg") no-repeat;
+    padding-bottom: 20px;
+    background-size: 100% 100%;
+    min-height: 35vh;
+    border-radius: 4px;
+    font-size: 2vw;
+}
+
 button {
     border: none;
     padding: 10px;
@@ -45,3 +109,8 @@ button {
 .dark-grey-text {
     color : #444444
 }
+
+.dark-grey-heading {
+    color: #444444;
+}
+
