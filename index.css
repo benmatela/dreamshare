@@ -141,14 +141,14 @@ hr {
 
 #partner {
     position: absolute;
-    left: 50px;
+    left: 70px;
     top: 0;
     z-index: 1;
 }
 
 #hobby {
     position: absolute;
-    left: 140px;
+    left: 160px;
     top: 80px;
     height: 40px;
     width: 40px;
@@ -156,6 +156,7 @@ hr {
     border-width: 4px;
     border-color: white !important;
     border-style: solid;
+    z-index: 2;
 }
 
 #info {
@@ -163,9 +164,5 @@ hr {
     right: 50px;
     top: 120px;
     z-index: 3;
-}
-
-.absolute {
-    position: absolute;
 }
 
