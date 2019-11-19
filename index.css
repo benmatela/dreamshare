@@ -113,6 +113,14 @@ button {
     color: #caa0a0;
 }
 
+.roboto-font {
+    font-family: 'Roboto';
+}
+
+.montserrat-font {
+    font-family: 'Montserrat';
+}
+
 .dark-grey-text {
     color : #444444
 }
@@ -136,7 +144,19 @@ hr {
 }
 
 .bg-pink {
-    background-color: #FF4E50 !important;
+    background-color: #FF4E50;
+}
+
+.bg-orange {
+    background-color: #FFA710;
+}
+
+.bg-green {
+    background-color: #18D4CA;
+}
+
+.bg-purple {
+    background-color: #667DF3;
 }
 
 #partner {
@@ -158,11 +178,3 @@ hr {
     border-style: solid;
     z-index: 2;
 }
-
-#info {
-    position: absolute;
-    right: 50px;
-    top: 120px;
-    z-index: 3;
-}
-
