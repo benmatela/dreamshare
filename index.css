@@ -114,3 +114,13 @@ button {
     color: #444444;
 }
 
+hr { 
+    background-color: #FF4E50; 
+    height: 3px; 
+    border: 0; 
+}
+
+.orange-text {
+    color: #FF4E50; 
+}
+
