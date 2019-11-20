@@ -47,7 +47,7 @@
 }
 
 .wellness-and-health .wellness-and-health-banner {
-    background: url("assets/block2Wellness.jpg") no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("assets/block2Wellness.jpg") no-repeat;
     padding-bottom: 20px;
     background-size: 100% 100%;
     min-height: 35vh;
@@ -92,7 +92,7 @@
 }
 
 .travelling .travelling-banner {
-    background: url("assets/block7Travelling.jpg") no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),  url("assets/block7Travelling.jpg") no-repeat;
     padding-bottom: 20px;
     background-size: 100% 100%;
     min-height: 35vh;
@@ -199,20 +199,6 @@ hr {
     background-color: #667DF3;
 }
 
-.sticky {
-    width: 100%;
-    height: auto;
-    margin: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    overflow: hidden;
-    display: block;
-    position: sticky;
-    position: -webkit-sticky;
-    z-index: 5;
-}
-
 .margin-right {
     margin-right: 500px;
 }
@@ -225,4 +211,3 @@ hr {
 .navbar {
     background-color: transparent;
 }
-
