@@ -16,61 +16,73 @@
 </head>
 
 <body>
-    <!--Header-->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark d-md-none">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <!--Small screen Nav-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark d-md-none sticky">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-               <ul class="list-group bg-primary d-block d-sm-none">
-                 <li class="list-unstyled  border-0  p-2"> <a href="" class="text-dark">Activities </a></li>
-                 <li class="list-unstyled  border-0 p-2"> <a href="" class="text-dark">Partners </a></li>
-                 <li class="list-unstyled border-0 p-2"> <a href="" class="text-dark">Blog </a></li>
-                 <li class="list-unstyled  border-0 p-2"> <a href="" class="text-dark">Contact </a></li>
-                 <li class="list-unstyled  border-0 p-2"> <a href="" class="text-dark">Login </a></li>
-                 <li class="list-unstyled  border-0 p-2"> <a href="" class="text-dark"><button class="button roboto-font button-transparent">Sign up</button></a></li>
-              </ul>
-            </div>
-         </nav>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="list-group bg-dark d-block d-md-none">
+                <li class="list-unstyled  border-0  p-2"> <a href="" class="text-white"><img src="assets/logoWhite.svg"
+                            alt="logo"> </a></li>
+                <li class="list-unstyled  border-0  p-2"> <a href="" class="text-white">Activities </a></li>
+                <li class="list-unstyled  border-0 p-2"> <a href="" class="text-white">Partners </a></li>
+                <li class="list-unstyled border-0 p-2"> <a href="" class="text-white">Blog </a></li>
+                <li class="list-unstyled  border-0 p-2"> <a href="" class="text-white">Contact </a></li>
+                <li class="list-unstyled  border-0 p-2"> <a href="" class="text-white">Login </a></li>
+                <li class="list-unstyled  border-0 p-2"> <a href="" class="text-white"><button
+                            class="button roboto-font button-transparent">Sign up</button></a></li>
+            </ul>
+        </div>
+    </nav>
 
+    <!--Large screen Nav-->
     <div class="holiday">
         <div class="container-fluid d-flex align-items-md-center justify-content-center main-banner">
             <div class="flex-column text-center margin-small">
+
                 <nav class="navbar navbar-expand-lg d-none d-md-block">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                        <a class="navbar-brand pr-5" href="#">
-                            <img src="assets/logoWhite.svg" alt="logo">
-                        </a>
-                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 pl-5">
-                            <li class="nav-item active">
-                                <a class="nav-link menu-text" href="#">Home <span class="sr-only">(current)</span></a>
+                        <ul class="navbar-nav mr-auto mt-2 pt-4 mt-lg-0 pl-5">
+                            <li class="nav-item active margin-right">
+                                <a class="nav-link menu-text" href="#"><img src="assets/logoWhite.svg" alt="logo"> <span
+                                        class="sr-only">(current)</span></a>
                             </li>
-                            <li class="nav-item active">
-                                <a class="nav-link menu-text" href="#">Home <span class="sr-only">(current)</span></a>
+                            <li class="nav-item active margin-right-80">
+                                <a class="nav-link menu-text" href="#">Activities <span
+                                        class="sr-only">(current)</span></a>
                             </li>
-                            <li class="nav-item active">
-                                <a class="nav-link menu-text" href="#">Home <span class="sr-only">(current)</span></a>
+                            <li class="nav-item active margin-right-80">
+                                <a class="nav-link menu-text" href="#">Partners <span
+                                        class="sr-only">(current)</span></a>
                             </li>
-                            <li class="nav-item active">
-                                <a class="nav-link menu-text" href="#">Home <span class="sr-only">(current)</span></a>
+                            <li class="nav-item active margin-right-80">
+                                <a class="nav-link menu-text" href="#">Blog <span class="sr-only">(current)</span></a>
                             </li>
-                            <li class="nav-item active menu-text">
-                                <a class="nav-link menu-text" href="#">Home <span class="sr-only">(current)</span></a>
+                            <li class="nav-item active margin-right-80">
+                                <a class="nav-link menu-text" href="#">Contact <span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active menu-text margin-right-80">
+                                <a class="nav-link menu-text" href="#">Login <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active menu-text margin-right-80">
+                                <form class="form-inline">
+                                    <button class="button btn-min roboto-font button-transparent">Sign up</button>
+                                </form>
                             </li>
                         </ul>
-                        <form class="form-inline">
-                            <button class="button roboto-font button-transparent">Sign up</button>
-                        </form>
                     </div>
                 </nav>
-                <h1 class="main-banner-text-big font-weight-bold roboto-font pt-5">SHARE YOUR <br> HOLIDAY DREAM </h1>
+
+                <div class="pt-5"></div>
+                <h1 class="main-banner-text-big font-weight-bold roboto-font d-none d-md-block pt-5">SHARE YOUR <br>
+                    HOLIDAY DREAM </h1>
+                <h1 class="main-banner-text-sm font-weight-bold roboto-font d-block d-md-none pt-5">SHARE YOUR <br>
+                    HOLIDAY DREAM </h1>
                 <br>
-                <h5 class="text-white dark-grey-heading montserrat-font">And find the perfect partner to fulfill it</h5>
+                <h5 class="text-white font-weight-small montserrat-font">And find the perfect partner to fulfill it</h5>
                 <button class="button button-pink mt-2 roboto-font">Find your holiday partner</button>
                 <div class="pt-5"></div>
                 <div class="pt-5"></div>
@@ -143,6 +155,7 @@
     <div class="text-center pb-3">
         <button class="button button-white roboto-font font-weight-normal">See other partners</button>
     </div>
+
     <div class="pt-4"></div>
 
     <!--Holiday Activities-->
@@ -224,36 +237,37 @@
         </div>
     </div>
 
+    <div class="pt-5"></div>
+
     <!--Footer-->
     <div class="container">
-        <div class="pt-5"></div>
         <hr>
         <div class="pt-3"></div>
 
         <div class="row">
-            <div class="col-lg-3 text-left">
+            <div class="col-lg-3 text-left mb-2">
                 <img src="assets/logo.svg" alt="logo">
             </div>
-            <div class="col-lg-3 text-left">
+            <div class="col-lg-3 text-left mb-2">
                 <h5 class="font-weight-bold roboto-font">Company</h5>
-                <a href="#" class="dark-grey-text">About</a><br>
-                <a href="#" class="dark-grey-text">Contact</a><br>
-                <a href="#" class="dark-grey-text">Press</a><br>
-                <a href="#" class="dark-grey-text">Blog</a><br>
-                <a href="#" class="dark-grey-text">Terms and Privacy</a><br>
-                <a href="#" class="dark-grey-text">Help</a><br>
+                <a href="#" class="grey-text">About</a><br>
+                <a href="#" class="grey-text">Contact</a><br>
+                <a href="#" class="grey-text">Press</a><br>
+                <a href="#" class="grey-text">Blog</a><br>
+                <a href="#" class="grey-text">Terms and Privacy</a><br>
+                <a href="#" class="grey-text">Help</a><br>
             </div>
-            <div class="col-lg-3 text-left">
+            <div class="col-lg-3 text-left mb-2">
                 <h5 class="font-weight-bold roboto-font">Activities</h5>
-                <a href="#" class="dark-grey-text">Sports</a><br>
-                <a href="#" class="dark-grey-text">Wellness and Health</a><br>
-                <a href="#" class="dark-grey-text">Expeditions</a><br>
-                <a href="#" class="dark-grey-text">Culture and Education</a><br>
+                <a href="#" class="grey-text">Sports</a><br>
+                <a href="#" class="grey-text">Wellness and Health</a><br>
+                <a href="#" class="grey-text">Expeditions</a><br>
+                <a href="#" class="grey-text">Culture and Education</a><br>
                 <a href="#" class="pink-text">View all</a><br>
             </div>
-            <div class="col-lg-3 text-left">
+            <div class="col-lg-3 text-left mb-2">
                 <h5 class="font-weight-bold roboto-font">Contact us</h5>
-                <p class="dark-grey-text">
+                <p class="grey-text">
                     Tel: (000) 000-0000<br>
                     Email: dreamshare@email.com</p>
             </div>
